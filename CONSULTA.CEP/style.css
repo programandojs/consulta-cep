@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    border: solid red;
+    width: 98%;
+    margin: auto;
+    padding: 2%;
+}
+header p{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 2%;
+    color:whitesmoke;
+    font-weight: 800;
+    text-shadow: 1px 1px black;
+}
+#res{
+    background: red;
+    padding: 2%;
+    text-align: center;
+}
+#res p{
+    border: solid black;
+    color: black;
+    font-weight: 900;
+    background-color: cadetblue;
+    padding: 1%;
+}
+#res p:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    color: black;
+}
+input{
+    border-radius: 15px;
+    height: auto;
+    height: 40px;
+}
+::placeholder {
+    text-align: center;
+  }
+svg{ 
+    cursor: pointer;
+    width: 60px;
+    height:30px;
+    border-radius: 20px; 
+    margin-top: 5px;
+    color: whitesmoke;
+}
+#sv{
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    padding-top: 1%;
+}
