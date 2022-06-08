@@ -2,7 +2,6 @@
       const btn = document.querySelector("#btn");
       const res = document.querySelector("#res");
       const buscando = document.querySelector("#buscando");
-      alert('Obs: digite o cep sem o uso de caracteres especiais... exemplo(123456) caso contrario o cep nao sera encontrado')
       res.hidden = true;
       btn.addEventListener("click", () => {
           if (buscando.value.trim() == '') {
@@ -29,5 +28,9 @@
           }
           buscando.value = '';
       })
+     setTimeout(() => {
+          alert('Obs: digite o cep sem o uso de caracteres especiais... \n desse jeito é valido (123456) \n desse jeito é invalido (123-456)')
+
+      },3000)
   }
   cep()
