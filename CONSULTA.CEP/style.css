@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #container{
-    border: solid red;
+    border: solid black;
     width: 98%;
     margin: auto;
     padding: 2%;
@@ -24,7 +24,7 @@ header p{
 }
 #res p{
     border: solid black;
-    color: black;
+    color: white;
     font-weight: 900;
     background-color: cadetblue;
     padding: 1%;
